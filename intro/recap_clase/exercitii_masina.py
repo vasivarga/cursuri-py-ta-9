@@ -7,4 +7,3 @@ masina4 = MasinaPlus("Dacia", "Spring", 2021)
 masina4.descriere()
 
 
-
