@@ -5,9 +5,13 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 
+# pentru varianta aceasta instalam selenium
 driver = webdriver.Chrome()
 
 # Alternativa pt browser mai customizat
+
+# pentru varianta aceasta instalam webdriver-manager
+
 # service_chrome = Service(ChromeDriverManager().install())
 # driver = webdriver.Chrome(service=service_chrome)
 
