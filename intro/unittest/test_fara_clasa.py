@@ -8,5 +8,3 @@ def type(self, locator, text):
 
 def click(self, locator):
     self.find(locator).click()
-
-
