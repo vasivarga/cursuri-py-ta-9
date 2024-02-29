@@ -1,13 +1,14 @@
 Feature: Login Page
 
+  Background: Open login page
+    Given I am on the login page
+
   @smoke @regression
   Scenario: Check that the URL is correct
-    Given I am on the login page
-    Then The URL of the page is
+    Then The URL of the Login Page is correct
 
   @regression
   Scenario Outline: Log in with unregistered email
-    Given I am on the login page
     When I enter "<username>" as email
     And I enter "<password>" as password
     And I click the login button
@@ -17,4 +18,3 @@ Feature: Login Page
       | pyta9@gmail.com   | 12345678       |
       | pyta9@yahoo.com   | 63246723547623 |
       | google.@gmail.com | asdfghjklcvb   |
-

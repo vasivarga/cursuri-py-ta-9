@@ -5,7 +5,7 @@ from behave import *
 def step_impl(context):
     context.login_page.open()
 
-@then('The URL of the page is')
+@then('The URL of the Login Page is correct')
 def step_impl(context):
     context.login_page.verify_url()
 
