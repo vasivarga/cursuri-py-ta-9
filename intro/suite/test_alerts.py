@@ -41,6 +41,9 @@ class TestAlerts(unittest.TestCase):
 
         actual_text = self.driver.find_element(*self.P_RESULT).text
 
+        # assert expected_text == actual_text
+        self.assertEqual(expected_text, actual_text)
+
     def test_accept_alert_with_text(self):
         self.driver.find_element(*self.BUTTON_JS_ALERT_PROMPT).click()
 
