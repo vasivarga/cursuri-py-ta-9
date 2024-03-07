@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4dac5a2a-f0c8-4a87-9b4a-354ae4dfef76" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../api-testing/requests_folder/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-testing/requests_folder/generate_token_request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-testing/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-testing/tests/test_delete_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-testing/tests/test_get_book_by_id.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-testing/tests/test_get_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-testing/tests/test_submit_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-testing/tests/test_update_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intro/recapitulare.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-testing/requests_folder/simple_books_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/../api-testing/requests_folder/simple_books_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-testing/tests/test_get_list_of_books.py" beforeDir="false" afterPath="$PROJECT_DIR$/../api-testing/tests/test_get_list_of_books.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../intro/suite/test_alerts.py" beforeDir="false" afterPath="$PROJECT_DIR$/../intro/suite/test_alerts.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
